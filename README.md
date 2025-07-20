@@ -1,3 +1,3 @@
 # Responsive-Music-Website
 
-# Abou
+# About
