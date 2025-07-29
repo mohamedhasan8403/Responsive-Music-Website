@@ -1,1 +1,51 @@
+/* MEDIA QUERIES */
+
+/*Media Queries For Tablet*/
+
+@media screen and (max-width:991px){
+    /* COMMON CSS */
+    
+    .flex-basis{
+        flex-basis: 100%;
+    }
+
+    /* NAVBAR CSS */
+    
+    nav{
+        padding: 20px;
+    }
+    
+    .navbar-left,.navbar-right{
+        display: none;
+    }
+    
+    .logo-mobile,.fa-solid.fa-bars{
+        display: inline-block;
+    }
+    
+    .fa-solid.fa-bars:hover + .navbar-mobile{
+        display: block;
+    }
+    
+    .navbar-mobile{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #08192D;
+        width: 100%;
+        padding: 20px 40px 10px 20px;
+    }
+    
+    .navbar-mobile ul{
+        flex-direction: column;
+    }
+    
+    .navbar-mobile ul li{
+        margin-bottom: 30px;
+    }
+    
+    .navbar-mobile ul a{
+        font-size: 20px;
+    }
+}
 
