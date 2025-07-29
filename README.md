@@ -1,7 +1,7 @@
 # Responsive Music Website
 
 A responsive music website built with HTML and CSS. This project is a simple and elegant way to showcase a music-related webpage that adapts to different screen sizes.
-
+  
 ## 🎵 About the Project
 
 This project is a front-end implementation of a music website. It's designed to be fully responsive, providing an optimal viewing experience across a wide range of devices, from desktops to mobile phones.
