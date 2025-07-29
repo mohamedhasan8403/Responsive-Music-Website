@@ -1,3 +1,72 @@
 /*Media Queries*/
 
 /*Media Queries For Mobile Phone*/
+
+@media screen and (max-width:600px){
+    /*Common CSS*/
+
+    .flex-basis{
+        flex-basis: 90%;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .common-layout{
+        padding: 40px 30px;
+    }
+
+    /*Section 1 CSS*/
+
+    .section-1 h1,.section-1 h1 span{
+        font-size: 15px;
+    }
+
+    .section-1-right img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section-1-buttons{
+        flex-direction: column;
+    }
+
+    /*Section-3 CSS*/
+
+    .section-3{
+        width: 90%;
+    }
+
+    .section-3 h2{
+        margin: 20px 0;
+    }
+
+    /*Section-4 CSS*/
+
+    .section-4-photo-div,.section-6-photo-div{
+        padding: 20px 0;
+        grid-gap: 50px;
+    }
+
+    /*Section-5 CSS*/
+
+    .section-5{
+        gap: 50px;
+    }
+
+    .section-5-right{
+        padding: 30px;
+    }
+
+    /*Footer CSS*/
+
+    footer.common-layout{
+        flex-direction: column;
+    }
+
+    .copyright-p{
+        margin: 10px 0 20px;
+    }
+}
+
